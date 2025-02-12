@@ -2,9 +2,9 @@ import resolve from "@rollup/plugin-node-resolve";
 import commonjs from '@rollup/plugin-commonjs';
 import terser from "@rollup/plugin-terser";
 
-const Addon_name = "ziko-something";
-const NamedExport = "ZikoSomething"
-const Author = "";
+const Addon_name = "ziko-fa";
+const NamedExport = "ZikoFa"
+const Author = "zakaria elalaoui";
 
 const banner = `
 /*

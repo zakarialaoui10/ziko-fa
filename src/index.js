@@ -1,13 +1,5 @@
-import { text } from "ziko";
-const A=1
-const B=2
-const ZikoSomething = {
-    A,
-    B
-}
-export default ZikoSomething;
-export{
-    A,
-    B,
-    text
-}
+import { library, dom } from '@fortawesome/fontawesome-svg-core';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+
+library.add(faCoffee);
+dom.watch();
